@@ -1,5 +1,5 @@
 //
-//  GAMAppDelegate.h
+//  GAMCanvasViewController.h
 //  Gameraww
 //
 //  Created by Yavor Georgiev on 18.01.14.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GAMAppDelegate : UIResponder<UIApplicationDelegate>
+@interface GAMCanvasViewController : UICollectionViewController
 
-@property (nonatomic, strong) UIWindow *window;
+@property (strong, nonatomic) NSArray *items;
 
 @end

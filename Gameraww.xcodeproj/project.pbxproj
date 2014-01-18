@@ -12,13 +12,18 @@
 		85574E5C18894B28005EC840 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85574E5B18894B28005EC840 /* UIKit.framework */; };
 		85574E6218894B28005EC840 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85574E6018894B28005EC840 /* InfoPlist.strings */; };
 		85574E6418894B28005EC840 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85574E6318894B28005EC840 /* main.m */; };
-		85574E6818894B28005EC840 /* GAMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85574E6718894B28005EC840 /* GAMAppDelegate.m */; };
 		85574E6A18894B28005EC840 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85574E6918894B28005EC840 /* Images.xcassets */; };
 		85574E7118894B28005EC840 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85574E7018894B28005EC840 /* XCTest.framework */; };
 		85574E7218894B28005EC840 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85574E5718894B28005EC840 /* Foundation.framework */; };
 		85574E7318894B28005EC840 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85574E5B18894B28005EC840 /* UIKit.framework */; };
 		85574E7B18894B28005EC840 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85574E7918894B28005EC840 /* InfoPlist.strings */; };
 		85574E7D18894B28005EC840 /* GamerawwTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85574E7C18894B28005EC840 /* GamerawwTests.m */; };
+		85574E8A18894BB0005EC840 /* GAMMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85574E8918894BB0005EC840 /* GAMMasterViewController.m */; };
+		85574ED71889708E005EC840 /* GAMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85574ED61889708E005EC840 /* GAMDetailViewController.m */; };
+		85574EDA188972BF005EC840 /* UIImageView+AsyncURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 85574ED9188972BF005EC840 /* UIImageView+AsyncURL.m */; };
+		85736C351889F8A1006B1201 /* GAMApplication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85736C341889F8A1006B1201 /* GAMApplication.storyboard */; };
+		85736C7F1889FED2006B1201 /* GAMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85736C7E1889FED2006B1201 /* GAMAppDelegate.m */; };
+		85736C82188A0C3B006B1201 /* GAMCanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85736C81188A0C3B006B1201 /* GAMCanvasViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,14 +45,23 @@
 		85574E6118894B28005EC840 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		85574E6318894B28005EC840 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		85574E6518894B28005EC840 /* Gameraww-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gameraww-Prefix.pch"; sourceTree = "<group>"; };
-		85574E6618894B28005EC840 /* GAMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAMAppDelegate.h; sourceTree = "<group>"; };
-		85574E6718894B28005EC840 /* GAMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAMAppDelegate.m; sourceTree = "<group>"; };
 		85574E6918894B28005EC840 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		85574E6F18894B28005EC840 /* GamerawwTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GamerawwTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85574E7018894B28005EC840 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		85574E7818894B28005EC840 /* GamerawwTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GamerawwTests-Info.plist"; sourceTree = "<group>"; };
 		85574E7A18894B28005EC840 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		85574E7C18894B28005EC840 /* GamerawwTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamerawwTests.m; sourceTree = "<group>"; };
+		85574E8818894BB0005EC840 /* GAMMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAMMasterViewController.h; sourceTree = "<group>"; };
+		85574E8918894BB0005EC840 /* GAMMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAMMasterViewController.m; sourceTree = "<group>"; };
+		85574ED51889708E005EC840 /* GAMDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAMDetailViewController.h; sourceTree = "<group>"; };
+		85574ED61889708E005EC840 /* GAMDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAMDetailViewController.m; sourceTree = "<group>"; };
+		85574ED8188972BF005EC840 /* UIImageView+AsyncURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AsyncURL.h"; sourceTree = "<group>"; };
+		85574ED9188972BF005EC840 /* UIImageView+AsyncURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AsyncURL.m"; sourceTree = "<group>"; };
+		85736C341889F8A1006B1201 /* GAMApplication.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GAMApplication.storyboard; sourceTree = "<group>"; };
+		85736C7D1889FED2006B1201 /* GAMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAMAppDelegate.h; sourceTree = "<group>"; };
+		85736C7E1889FED2006B1201 /* GAMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAMAppDelegate.m; sourceTree = "<group>"; };
+		85736C80188A0C3B006B1201 /* GAMCanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAMCanvasViewController.h; sourceTree = "<group>"; };
+		85736C81188A0C3B006B1201 /* GAMCanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAMCanvasViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +121,16 @@
 		85574E5D18894B28005EC840 /* Gameraww */ = {
 			isa = PBXGroup;
 			children = (
-				85574E6618894B28005EC840 /* GAMAppDelegate.h */,
-				85574E6718894B28005EC840 /* GAMAppDelegate.m */,
+				85736C341889F8A1006B1201 /* GAMApplication.storyboard */,
+				85736C7D1889FED2006B1201 /* GAMAppDelegate.h */,
+				85736C7E1889FED2006B1201 /* GAMAppDelegate.m */,
+				85574E8818894BB0005EC840 /* GAMMasterViewController.h */,
+				85574E8918894BB0005EC840 /* GAMMasterViewController.m */,
+				85736C80188A0C3B006B1201 /* GAMCanvasViewController.h */,
+				85736C81188A0C3B006B1201 /* GAMCanvasViewController.m */,
+				85574ED51889708E005EC840 /* GAMDetailViewController.h */,
+				85574ED61889708E005EC840 /* GAMDetailViewController.m */,
+				85736C331889F628006B1201 /* Categories */,
 				85574E6918894B28005EC840 /* Images.xcassets */,
 				85574E5E18894B28005EC840 /* Supporting Files */,
 			);
@@ -142,6 +164,15 @@
 				85574E7918894B28005EC840 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85736C331889F628006B1201 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				85574ED8188972BF005EC840 /* UIImageView+AsyncURL.h */,
+				85574ED9188972BF005EC840 /* UIImageView+AsyncURL.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85574E6218894B28005EC840 /* InfoPlist.strings in Resources */,
+				85736C351889F8A1006B1201 /* GAMApplication.storyboard in Resources */,
 				85574E6A18894B28005EC840 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,8 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85574E6818894B28005EC840 /* GAMAppDelegate.m in Sources */,
+				85736C7F1889FED2006B1201 /* GAMAppDelegate.m in Sources */,
 				85574E6418894B28005EC840 /* main.m in Sources */,
+				85574EDA188972BF005EC840 /* UIImageView+AsyncURL.m in Sources */,
+				85574ED71889708E005EC840 /* GAMDetailViewController.m in Sources */,
+				85736C82188A0C3B006B1201 /* GAMCanvasViewController.m in Sources */,
+				85574E8A18894BB0005EC840 /* GAMMasterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +480,7 @@
 				85574E8218894B28005EC840 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85574E8318894B28005EC840 /* Build configuration list for PBXNativeTarget "GamerawwTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +489,7 @@
 				85574E8518894B28005EC840 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
